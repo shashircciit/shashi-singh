@@ -12,8 +12,8 @@ class App extends Component {
         <i class="fa fa-github" aria-hidden="true"></i>
         <i class="fa fa-angellist" aria-hidden="true"></i>
         <i class="fa fa-facebook" aria-hidden="true"></i>
-        <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
-        <Button  className="button" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>HIRE ME</Button>{' '}
+        <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
+        <Button  className="button" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>HIRE ME</Button>{' '}
         </header>
       
        <div className="bodypart">
@@ -57,21 +57,53 @@ class App extends Component {
                     </p>
                   </div>
               </div>
-              <div className="Education">
+              <div className="education">
+                <h1 className="educationa">Education</h1>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <h1 className="dname">Bachelore of technology</h1>
+                <h2 className="clgname">RCC Istitute of infromation technology</h2>
+                <h3 className="clgname">(2012-2016) </h3>
+                <i class="fa fa-map-marker" aria-hidden="true"> West Bengal, India</i>
+                <i class="fa fa-certificate" aria-hidden="true"></i> 
+                </div>
+              <div className="skills">
+               <h1 className="educationa">Skills</h1>
+                 <div className="circle">
+                 <img className="circlea" alt="" src="html.png"/>
+                 <img className="circlea" alt="" src="bootstrap.jpg"/>
+                 <img className="circlea" alt="" src="css.jpg"/>
+                 <img className="circlea" alt="" src="sass.png"/>
+                 <img className="circlea" alt="" src="react.png"/>
+                 <img className="circlea" alt="" src="nodejs.png"/>
+                 <img className="circlea" alt="" src="express.png"/>
+                 <img className="circlea" alt="" src="mongodb.png"/>
+                 <img className="circlea" alt="" src="mysql.png"/>
+                 <img className="circlea" alt="" src="fbad.jpg"/>
+                 <img className="circlea" alt="" src="fbad.jpg"/>
+                 <img className="circlea" alt="" src="fbad.jpg"/>
+                </div>
              
               </div>
-              <div className="Skills">
+              
+              <div className="portfolio">
              
               </div>
-              <div className="Testimonials">
-             
-              </div>
-              <div className="Portfolio">
-             
-              </div>
-              <div className="Contact">
-             
-              </div>
+              <div className="contact">
+              <h1 className="contacts"> Get in Touch</h1>  
+              <img className="imageaa" alt="" src="IMG_20171125_120114.jpg"/>
+              <p className="contactp">Give me an opportunity and I will make it a future.
+                </p>
+                <p className="contactpp">
+                I can help with the following:
+                </p>
+                <h1 className="contactppp">  App development with ReactJS </h1>
+                <h1 className="contactppp">  Front-end development with AngularJS</h1>
+                <h1 className="contactppp">  Back-end development with Django/Python </h1>
+                <h1 className="contactppp">  UI development </h1>
+                <h1 className="contactppp">  UX prototyping  </h1>
+              
+            
+            </div>
 
 
 
