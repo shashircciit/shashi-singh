@@ -8,13 +8,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-github" aria-hidden="true"></i>
-        <i class="fa fa-angellist" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
-        <Button  className="button" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>HIRE ME</Button>{' '}
-        </header>
+          <i class="fa fa-linkedin" aria-hidden="true"><a className="meawwlinka" href="https://www.linkedin.com/in/shashi-shekhar-singh-86a814105"></a></i>
+          <i class="fa fa-github" aria-hidden="true"><a className="meawwlinka" href=""></a></i>
+           <i class="fa fa-angellist" aria-hidden="true"><a className="meawwlinka" href=""></a></i>
+          <i class="fa fa-facebook" aria-hidden="true"><a className="meawwlinka" href=""></a></i>
+          <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
+           <Button  className="button" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>HIRE ME</Button>{' '}
+          </header>
       
        <div className="bodypart">
          <div className="profile">
@@ -26,21 +26,21 @@ class App extends Component {
              I have learned to own what I build as I create, test and refine the front end as well as web-services on the server side, 
              following the motto of Discover, design, develop, deploy, debug. Repeat!
           </p>
+                
        </div>
         <div className="footer">
            <div className="footerdata">
         <i class="fa fa-envelope" aria-hidden="true"> shashircciit@gmail.com </i>
         <i class="fa fa-mobile" aria-hidden="true"> +91 8961478702 </i>
-        <i class="fa fa-globe" aria-hidden="true"> website </i>
+        <i class="fa fa-globe" aria-hidden="true"> <a className="meawwlinka" href="http://shashi-singh.herokuapp.com/"> shashi-singh </a> </i>  
         </div>
         </div>
           <div className="menu">
              <Button className="buttona-menu"><a href="#experience">Experiences</a></Button>{' '}
              <Button className="buttona-menu"><a href="#education">Education</a></Button>{' '}
              <Button className="buttona-menu"><a href="#skills">Skills</a></Button>{' '}
-             <Button className="buttona-menu"><a href=" ">Testimonials</a></Button>{' '}
-             <Button className="buttona-menu"><a href=" ">Portfolio</a></Button>{' '}
-             <Button className="buttona-menu"><a href=" ">Contact</a></Button>{' '}
+             <Button className="buttona-menu"><a href="#portfolio">Portfolio</a></Button>{' '}
+             <Button className="buttona-menu"><a href="#contact">Contact</a></Button>{' '}
          </div>
               <div className="experience" id="experience">
                 <div className="expsmall">
@@ -64,6 +64,9 @@ class App extends Component {
                 <h2 className="clgname">RCC Istitute of infromation technology</h2>
                 <h3 className="clgname">(2012-2016) </h3>
                 <i class="fa fa-map-marker" aria-hidden="true"> West Bengal, India</i>
+                <p className="collegep">"A college degree is not a sign that one is a finished product but an indication a person is prepared for life." <br /> <br />
+                Going to college Helped me, Because i had four years in the conservatory program, which is close as you can get to a professional environemnt. Its like all day.
+                  </p>
               
                 </div>
               <div className="skills" id="skills">
@@ -81,26 +84,31 @@ class App extends Component {
                  <img className="circlea" alt="" src="fbad.jpg"/>
                  <img className="circlea" alt="" src="fbad.jpg"/>
                  <img className="circlea" alt="" src="fbad.jpg"/>
-                </div>
+                </div> 
              
               </div>
               
               <div className="portfolio">
              
               </div>
-              <div className="contact">
+              <div className="contact" id="contact">
               <h1 className="contacts"> Get in Touch</h1>  
               <img className="imageaa" alt="" src="IMG_20171125_120114.jpg"/>
               <p className="contactp">
                 </p>
                 <p className="contactppe">
-                I can help with the following:
+                 I can help with the following:
                 </p>
-                <h1 className="contactppp"><i className="fa fa-check-circle-o fa-2X"></i> App development with ReactJS </h1>
-                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Front-end development with AngularJS</h1>
-                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Back-end development with Django/Python </h1>
+                <h1 className="contactppp"><i className="fa fa-check-circle-o fa-2X"></i>   App development with ReactJS </h1>
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Front-end development with RecatJS, Express, Html, css</h1>
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Back-end development with  nodejs </h1><br />
                 <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UI development </h1><br />
                 <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UX prototyping  </h1>
+                <p className="contactno"> Drop a mail for a good conversation and work on 
+                   <address>
+                      <a className="maillinks" href="mailto:shashircciit@gmail.com"> shashircciit@gmail.com </a>
+                   </address>
+                </p>
               </div>
 
 

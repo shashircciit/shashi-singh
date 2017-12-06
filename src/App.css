@@ -214,7 +214,7 @@ a:hover, a:active {
 }
 .exph{
   color: #464646;
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 30px;
   text-align: center;
   
@@ -276,10 +276,10 @@ margin: -80px 0px 10px 320px;
 }
 .educationa{
   padding-top: 20px;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
    background-color: #f5f5f5;
-  margin-top: 80px;
+  margin-top: 120px;
   color: #464646;
 }
 .fa-graduation-cap{
@@ -304,6 +304,7 @@ margin: -80px 0px 10px 320px;
 .skills{
   height:680px;
   width:100%;
+  font-size: 60px;margin-top: 20px;
   background-color:#f5f5f5;
 }
 .circlea {
@@ -320,7 +321,7 @@ margin: -80px 0px 10px 320px;
 }
 .contacts{
   padding-top: 40px;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
   background-color: #f5f5f5;
   color: #464646;
@@ -356,11 +357,34 @@ margin: -80px 0px 10px 320px;
  margin-left: 300px;
   font-family: 'Franklin Gothic Medium';
   color: #5f4d42;
-
 }
-
-
-
+.meawwlinka:link, .meawwlinka:visited{
+  color: white;
+  background-color: transparent; 
+  text-decoration: none;
+}
+.collegep{
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 30px;
+  margin-left: 100px;
+  font-family: 'Franklin Gothic Medium';
+  color: #5f4d42;
+}
+.contactno{
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 200px;
+  font-family: 'Franklin Gothic Medium';
+  color: #5f4d42;
+}
+.maillinks:link, .maillinks:visited{
+  color: #5f4d42;
+  display: block;
+  background-color: transparent; 
+  text-decoration: none;
+}
 
 
 
