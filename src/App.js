@@ -22,7 +22,7 @@ class App extends Component {
         <h1> Shashi Singh </h1>
         <h2> Full Stack Developer </h2>
         </div>
-           <p>With 1yr+ hands-on experience developing, releasing, and maintaining large-scale online web-based applications, 
+           <p className="pes">With 1yr+ hands-on experience developing, releasing, and maintaining large-scale online web-based applications, 
              I have learned to own what I build as I create, test and refine the front end as well as web-services on the server side, 
              following the motto of Discover, design, develop, deploy, debug. Repeat!
           </p>
@@ -35,14 +35,14 @@ class App extends Component {
         </div>
         </div>
           <div className="menu">
-             <Button className="buttona-menu"><a href="/experience">Experiences</a></Button>{' '}
-             <Button className="buttona-menu"><a href="">Education</a></Button>{' '}
-             <Button className="buttona-menu"><a href=" ">Skills</a></Button>{' '}
+             <Button className="buttona-menu"><a href="#experience">Experiences</a></Button>{' '}
+             <Button className="buttona-menu"><a href="#education">Education</a></Button>{' '}
+             <Button className="buttona-menu"><a href="#skills">Skills</a></Button>{' '}
              <Button className="buttona-menu"><a href=" ">Testimonials</a></Button>{' '}
              <Button className="buttona-menu"><a href=" ">Portfolio</a></Button>{' '}
              <Button className="buttona-menu"><a href=" ">Contact</a></Button>{' '}
          </div>
-              <div className="experience">
+              <div className="experience" id="experience">
                 <div className="expsmall">
                 <h1 className="exph"> Work Experiences </h1>
                 <img className="imagemeaww" alt="Meaww.com" src="meaww.jpg"/>
@@ -57,16 +57,16 @@ class App extends Component {
                     </p>
                   </div>
               </div>
-              <div className="education">
+              <div className="education" id="education">
                 <h1 className="educationa">Education</h1>
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                 <h1 className="dname">Bachelore of technology</h1>
                 <h2 className="clgname">RCC Istitute of infromation technology</h2>
                 <h3 className="clgname">(2012-2016) </h3>
                 <i class="fa fa-map-marker" aria-hidden="true"> West Bengal, India</i>
-                <i class="fa fa-certificate" aria-hidden="true"></i> 
+              
                 </div>
-              <div className="skills">
+              <div className="skills" id="skills">
                <h1 className="educationa">Skills</h1>
                  <div className="circle">
                  <img className="circlea" alt="" src="html.png"/>
@@ -91,19 +91,17 @@ class App extends Component {
               <div className="contact">
               <h1 className="contacts"> Get in Touch</h1>  
               <img className="imageaa" alt="" src="IMG_20171125_120114.jpg"/>
-              <p className="contactp">Give me an opportunity and I will make it a future.
+              <p className="contactp">
                 </p>
-                <p className="contactpp">
+                <p className="contactppe">
                 I can help with the following:
                 </p>
-                <h1 className="contactppp">  App development with ReactJS </h1>
-                <h1 className="contactppp">  Front-end development with AngularJS</h1>
-                <h1 className="contactppp">  Back-end development with Django/Python </h1>
-                <h1 className="contactppp">  UI development </h1>
-                <h1 className="contactppp">  UX prototyping  </h1>
-              
-            
-            </div>
+                <h1 className="contactppp"><i className="fa fa-check-circle-o fa-2X"></i> App development with ReactJS </h1>
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Front-end development with AngularJS</h1>
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Back-end development with Django/Python </h1>
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UI development </h1><br />
+                <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UX prototyping  </h1>
+              </div>
 
 
 

@@ -14,20 +14,29 @@ body{
   padding: 20px;
   color: white;
 }
-.fa-linkedin,.fa-github{
-  height:50px;
-  width:50px;
-  margin-left: 5px;
+.fa-linkedin{
+  height:45px;
+  width:45px;
   font-size: 25px;
+  margin-left: 25px;
   border: 2px solid white;
   border-radius: 100%;
-  padding: 8px;
+  padding: 6px;
+}
+.fa-github{
+  height:45px;
+  width:45px;
+  font-size: 25px;
+  margin-left: 30px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 6px;
 
 }
 
 .fa-angellist{
-  height:50px;
-  width:50px;
+  height:45px;
+  width:45px;
   font-size: 25px;
   margin-left: 30px;
   border: 2px solid white;
@@ -44,16 +53,17 @@ body{
   padding: 8px;
 }
 .fa-facebook::before{
-  margin-left: 5px;
+  margin-left: 6px;
 }
 .fa-linkedin::before{
-   margin-left: 6px;
+   margin-left: 5px;
 }
 .fa-angellist::before{
-    margin-left: 6px;
+    margin-left: 4px;
 } 
 .fa-github::before{
-     margin-left: 6px;
+    padding-top: 7px;
+     margin-left: 5px;
 } 
 .button{
   color: white;
@@ -126,7 +136,7 @@ body{
   font-weight: 300;
   font-size: 40px;
 }
-p{
+.pes{
   display: block;
   color:white;
   font-family: 'Roboto', sans-serif;
@@ -183,6 +193,7 @@ p{
 }
 .experience{
  width:100%;
+ height: 620px;
  padding-top: 30px;
  background-color:#f5f5f5;
   
@@ -246,15 +257,17 @@ margin: -80px 0px 10px 320px;
   color:#464646;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 30px;
-  margin-top: 100px;
+  font-size: 25px;
+  margin-top: 120px;
+  padding: 0 40px  30px 40px;
 }
 .meawwpme {
   color:#464646;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 30px;
-  margin-top: -70px;
+  font-size: 25px;
+  margin-top: 15px;
+  padding: 0 40px  30px 40px;
 }
 .education{
   height:680px;
@@ -328,7 +341,7 @@ margin: -80px 0px 10px 320px;
   color: #5f4d42;
 
 }
-.contactpp{
+.contactppe{
   margin-left: 300px;
   font-size: 40px;
   margin-top: -40px;
@@ -337,7 +350,7 @@ margin: -80px 0px 10px 320px;
 
 }
 .contactppp{
-  margin-top: -70px;
+  margin-top: -170px;
   display: inline-block;
   font-size: 30px;
  margin-left: 300px;
