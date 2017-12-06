@@ -9,6 +9,16 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 863) {
+          $(".menu").addClass("fixed");
+      } else {
+          $(".menu").removeClass("fixed");
+      }
+  });
+</script>
     
     <title>Shashi Singh</title>
   </head>

@@ -6,12 +6,16 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+       <div className="App">
         <header className="App-header">
-          <i class="fa fa-linkedin" aria-hidden="true"><a className="meawwlinka" href="https://www.linkedin.com/in/shashi-shekhar-singh-86a814105"></a></i>
-          <i class="fa fa-github" aria-hidden="true"><a className="meawwlinka" href=""></a></i>
-           <i class="fa fa-angellist" aria-hidden="true"><a className="meawwlinka" href=""></a></i>
-          <i class="fa fa-facebook" aria-hidden="true"><a className="meawwlinka" href=""></a></i>
+           <a  href="https://www.linkedin.com/in/shashi-shekhar-singh-86a814105">
+           <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+           <a  href="https://github.com/shashircciit">
+           <i class="fa fa-github" aria-hidden="true"> </i></a>
+           <a  href="https://angel.co/shashi-singh-7">
+           <i class="fa fa-angellist" aria-hidden="true"></i></a>
+           <a  href="https://www.facebook.com/shashi.singh.581">
+          <i class="fa fa-facebook" aria-hidden="true"></i></a>
           <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
            <Button  className="button" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>HIRE ME</Button>{' '}
           </header>
@@ -70,20 +74,20 @@ class App extends Component {
               
                 </div>
               <div className="skills" id="skills">
-               <h1 className="educationa">Skills</h1>
+               <h1 className="skillsa">Skills</h1>
                  <div className="circle">
-                 <img className="circlea" alt="" src="html.png"/>
-                 <img className="circlea" alt="" src="bootstrap.jpg"/>
+                 <img className="circlea" alt="" src="1.png"/>
+                 <img className="circlea" alt="" src="7.png"/>
                  <img className="circlea" alt="" src="css.jpg"/>
-                 <img className="circlea" alt="" src="sass.png"/>
+                 <img className="circlea" alt="" src="2.png"/>
                  <img className="circlea" alt="" src="react.png"/>
                  <img className="circlea" alt="" src="nodejs.png"/>
-                 <img className="circlea" alt="" src="express.png"/>
-                 <img className="circlea" alt="" src="mongodb.png"/>
-                 <img className="circlea" alt="" src="mysql.png"/>
-                 <img className="circlea" alt="" src="fbad.jpg"/>
-                 <img className="circlea" alt="" src="fbad.jpg"/>
-                 <img className="circlea" alt="" src="fbad.jpg"/>
+                 <img className="circlea" alt="" src="4.png"/>
+                 <img className="circlea" alt="" src="6.png"/>
+                 <img className="circlea" alt="" src="5.png"/>
+                 <img className="circlea" alt="" src="8.png"/>
+                 <img className="circlea" alt="" src="9.png"/>
+                 <img className="circlea" alt="" src="10.png"/>
                 </div> 
              
               </div>
@@ -93,7 +97,7 @@ class App extends Component {
               </div>
               <div className="contact" id="contact">
               <h1 className="contacts"> Get in Touch</h1>  
-              <img className="imageaa" alt="" src="IMG_20171125_120114.jpg"/>
+              <img className="imageaa" alt="" src="shashi2.jpg"/>
               <p className="contactp">
                 </p>
                 <p className="contactppe">
@@ -104,7 +108,7 @@ class App extends Component {
                 <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  Back-end development with  nodejs </h1><br />
                 <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UI development </h1><br />
                 <h1 className="contactppp"> <i className="fa fa-check-circle-o fa-2X"></i>  UX prototyping  </h1>
-                <p className="contactno"> Drop a mail for a good conversation and work on 
+                <p className="contactno"> Drop a mail if i can help you 
                    <address>
                       <a className="maillinks" href="mailto:shashircciit@gmail.com"> shashircciit@gmail.com </a>
                    </address>
