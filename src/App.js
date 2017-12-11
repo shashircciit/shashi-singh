@@ -8,6 +8,7 @@ class App extends Component {
     return (
        <div className="App">
         <header className="App-header">
+          <div className="links">
            <a  href="https://www.linkedin.com/in/shashi-shekhar-singh-86a814105">
            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
            <a  href="https://github.com/shashircciit">
@@ -15,9 +16,12 @@ class App extends Component {
            <a  href="https://angel.co/shashi-singh-7">
            <i class="fa fa-angellist" aria-hidden="true"></i></a>
            <a  href="https://www.facebook.com/shashi.singh.581">
-          <i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
-           <Button  className="button" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>HIRE ME</Button>{' '}
+           <i class="fa fa-facebook" aria-hidden="true"></i></a>
+           </div>
+           <div className="buttons">
+            <Button  className="button" color="#52433a" size="lg"><i class="fa fa-telegram" aria-hidden="true"></i>HIRE ME</Button>{' '}
+            <Button  className="buttona" color="#52433a" size="lg"><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD MY RESUME</Button>{' '}
+           </div>
           </header>
       
        <div className="bodypart">
@@ -26,9 +30,7 @@ class App extends Component {
         <h1> Shashi Singh </h1>
         <h2> Full Stack Developer </h2>
         </div>
-           <p className="pes">With 1yr+ hands-on experience developing, releasing, and maintaining large-scale online web-based applications, 
-             I have learned to own what I build as I create, test and refine the front end as well as web-services on the server side, 
-             following the motto of Discover, design, develop, deploy, debug. Repeat!
+           <p className="pes">With 1yr+ hands-on experience developing, releasing, and maintaining large-scale online web-based applications, I have learned to own what I build as I create, test and refine the front end as well as web-services on the server side, following the motto of Discover, design, develop, deploy, debug. Repeat!
           </p>
                 
        </div>
@@ -50,11 +52,11 @@ class App extends Component {
                 <div className="expsmall">
                 <h1 className="exph"> Work Experiences </h1>
                 <img className="imagemeaww" alt="Meaww.com" src="meaww.jpg"/>
+                <h1 className="position"> Full Stack Developer</h1>
                 <h1 className="namemeaww"><a className="meawwlink" href="https://meaww.com"> Meaww.com </a> </h1>
                 <h1 className="workperiod"><i class="fa fa-calendar" aria-hidden="true"> Nov 2016 to Present </i> </h1>
                 <i class="fa fa-map-marker" aria-hidden="true"> Bangalore </i>
-                <h1 className="position"> Full Stack Developer</h1>
-                  <p className="meawwp">Meaww is a fully integrated entertainment company and has forayed into all forms of media, from FB quizzes, videos to articles to art and opinion pieces; which cater to all kinds of content needs of our users.
+                <p className="meawwp">Meaww is a fully integrated entertainment company and has forayed into all forms of media, from FB quizzes, videos to articles to art and opinion pieces; which cater to all kinds of content needs of our users.
                   </p>
                      <p className="meawwpme">However, graduating with a Btech degree and having some skill in web developing, I was able to join Meaww as a full stack developer and I started coding for their product Fb-quizzes. 
                     After one year later, I am working with development & Social media marketing team.
@@ -66,8 +68,9 @@ class App extends Component {
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                 <h1 className="dname">Bachelore of technology</h1>
                 <h2 className="clgname">RCC Istitute of infromation technology</h2>
-                <h3 className="clgname">(2012-2016) </h3>
                 <i class="fa fa-map-marker" aria-hidden="true"> West Bengal, India</i>
+                <h3 className="clgnamea">(2012-2016) </h3>
+                
                 <p className="collegep">"A college degree is not a sign that one is a finished product but an indication a person is prepared for life." <br /> <br />
                 Going to college Helped me, Because i had four years in the conservatory program, which is close as you can get to a professional environemnt. Its like all day.
                   </p>
@@ -89,10 +92,9 @@ class App extends Component {
                  <img className="circlea" alt="" src="9.png"/>
                  <img className="circlea" alt="" src="10.png"/>
                 </div> 
-             
-              </div>
+               </div>
               
-              <div className="portfolio">
+              <div className="portfolio" id="portfolio">
                  <h1 className="portname" id="portfolio">Portfolio</h1>
                  <i class="fa fa-product-hunt" aria-hidden="true"></i>
                  <a className="leopetra" href="https://leopetra.com/"> Leopetra.com </a>

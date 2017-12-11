@@ -13,6 +13,7 @@ body{
   height: 200px;
   padding: 20px;
   color: white;
+  display: flex;
 }
 .fa-linkedin, .fa-github,.fa-angellist,.fa-facebook{
   height:45px;
@@ -35,12 +36,16 @@ body{
 .fa-github::before{
     padding-top: 7px;
     margin-left: 5px;
+}
+.buttons{
+  margin: 0px;
+  padding: 0px;
 } 
 .button{
   color: white;
   background-color: #52433a;
   font-size: 25px;
-  float: right;
+  margin-left: 430px;
   margin-right: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -49,8 +54,6 @@ body{
   color: white;
   background-color: #52433a;
   font-size: 25px;
-  float: right;
-  margin-right:40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -62,15 +65,39 @@ body{
 }
 
 @media (max-width: 500px) {
-  .button{
-    font-size: 15px;
-    margin-right: 10px;
-  }
+   .App-header{
+     height: 230px;
+     display: flex;
+     flex-direction: column;
+   }
+   .links{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .fa-linkedin, .fa-github,.fa-angellist,.fa-facebook{
+     margin-left: 20px;
+   }
+   .buttons{
+     display: flex;
+     flex-direction: column;
+   }
   .buttona{
+    margin: 0px;
+    font-weight: 400;
+    position: center;
+    margin-top: 22px;
     font-size: 15px;
-    margin-right:10px;
+
+  }
+  .button{
+    margin: 0px;
+    font-weight: 400;
+    margin-top: 25px;
+    font-size: 15px;
   }
 }
+
 .bodypart{
   background-color: #5f4d42;
   width:100%;
@@ -109,8 +136,39 @@ body{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 30px;
+  text-align: center;
   margin: 30px 70px 100px 70px;
   }
+
+  @media (max-width: 500px) {
+   
+    .image{
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    .profile h1{
+      color: white;
+      font-family: 'Roboto', sans-serif; 
+      font-weight: 300;
+      font-size: 50px;
+    }
+    .profile h2{
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      margin-top:10px; 
+      font-size: 33px;
+    }
+    .pes{
+      text-align: center;
+      color:white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 28px;
+     
+      }
+}
+
+
 .footer{
   justify-content: center;
   display: flex;
@@ -122,7 +180,8 @@ body{
 }
 .fa-envelope{
   color: white;
-  font-size: 25px;padding: 20px;
+  font-size: 25px;
+  padding: 20px;
   margin-left: 100px;
   padding-right: 150px;
 }
@@ -138,11 +197,38 @@ body{
   margin-left: 100px;
   font-size: 25px;
 }
+@media (max-width: 500px){
+  .footer{
+    height: 200px;
+    margin-top: -100px;
+  }
+  .footerdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.fa-envelope{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.fa-mobile{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.fa-globe{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+}
 .menu{
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   background-color: #443730;
-  height: 80px;
   width: 100%;
 }
 .buttona-menu{
@@ -152,8 +238,14 @@ body{
   font-size: 25px;
   padding: 10px;
   margin-top: 15px;
+  margin-bottom: 15px;
   margin-right: 30px;
-  
+}
+@media (max-width: 500px){
+  .buttona-menu{
+    margin: 10px;
+    margin-right: 0px;
+  }
 }
 .buttona-menu:hover{
   background-color: #52433a;
@@ -184,6 +276,7 @@ a:hover, a:active {
   font-size: 60px;
   margin-top: 30px;
   text-align: center;
+  margin-bottom: 40px;
   
 }
 .imagemeaww{
@@ -191,22 +284,22 @@ a:hover, a:active {
   width: 150px;
   height:150px;
 }
-.namemeaww{
+.position{
 color: #464646;
 font-size: 35px;
-margin: -80px 0px 10px 320px;
+margin: -130px 0px 5px 320px;
 }
 .meawwlink:link, .meawwlink:visited{
   color: #464646;
   background-color: transparent; 
   text-decoration: none;
 }
-.position{
+.namemeaww{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #464646;
-  font-size: 40px;
-  margin: -120px 0px 10px 320px;
+  font-size: 30px;
+  margin: -10px 0px 10px 320px;
 }
 .workperiod{
  color: #464646;
@@ -215,7 +308,7 @@ margin: -80px 0px 10px 320px;
 }
 .fa-map-marker{
   color: #464646;
-  font-size: 25px;
+  font-size: 20px;
   float: right;
   margin-right: 150px;
   margin-top: -70px;
@@ -236,14 +329,70 @@ margin: -80px 0px 10px 320px;
   margin-top: 15px;
   padding: 0 40px  30px 40px;
 }
+@media (max-width: 500px){
+  .exph{
+    padding: 0px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 40px;
+  }  
+  .imagemeaww{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 50px;
+    height:50px;
+  }
+.namemeaww{
+    color: #464646;
+    font-size: 23px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin: -30px 0px 40px 80px;
+    }
+.workperiod{
+      color: #464646;
+      font-size: 20px;
+      padding-bottom: 15px;
+      margin: -50px 0px 0px 80px;
+     }
+.position{
+      font-family: 'Roboto', sans-serif;
+      color: #464646;
+      font-size: 25px;
+      font-weight: 400px;
+      padding-bottom: 10px;
+      margin: -50px 0px 15px 80px;
+    }
+.experience .fa-map-marker{
+  padding-top: 8px;
+  float: left;
+  margin-left: 80px;
+  font-size: 15px;
+  font-weight: 300px;
+  margin-top: -20px;
+      
+    }
+.meawwp{
+      margin-top: 10px;
+      padding-bottom: 10px;
+      padding-block-start: 50px;
+}
+.meawwpme{
+  margin-top: -40px;
+  padding-bottom: 10px;
+  padding-block-start: 50px;
+}
+}
+
 .education{
-  margin-top: 130px;
+  margin-top: 120px;
   height:640px;
   width:100%;
   background-color:#f5f5f5;
 }
 .educationa{
-  padding-top: 120px;
+  padding-top: 100px;
   font-size: 60px;
   text-align: center;
    background-color: #f5f5f5;
@@ -264,38 +413,119 @@ margin: -80px 0px 10px 320px;
   margin-left: 290px;
   margin-top: -20px;
 }
-.fa-certificate{
-  margin-left: 150px;
-  margin-top: 40px;
-  font-size: 70px;
+.clgnamea{
+  padding-top: 8px;
+  margin-left: 290px;
+  margin-top: -20px;
 }
+
+@media (max-width: 500px){
+  .education{
+    padding-top: 0px;
+    margin-top: 0px;
+    height:440px;
+    background-color:#f5f5f5;
+  }
+.educationa{
+  font-size: 40px;
+  margin-top: 330px;
+  padding: 220px 0px  0px 0px;
+}
+.fa-graduation-cap{
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.dname{
+  margin-left: 65px;
+  margin-top: -35px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.clgname{
+  padding-top: 8px;
+  margin-left: 65px;
+  margin-top: -10px;
+  font-size: 20px;
+}
+.education .fa-map-marker{
+  padding-top: 8px;
+  float: left;
+  margin-left: 65px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 300px;
+  margin-top: -10px;
+}
+.clgnamea{
+  padding-top: 8px;
+  margin-left: 65px;
+  margin-top: 15px;
+  font-size: 15px;
+ }
+.education .collegep{
+  margin-top: 0px;
+  font-size: 25px;
+  margin:-30px 20px 0px 20px;
+  padding-block-start: 50px;
+}
+}
+
 .skillsa{
-  padding-top: 110px;
+ margin-top: 120px;
+ padding-top: 100px;
   font-size: 60px;
   text-align: center;
    background-color: #f5f5f5;
-  margin-top: 140px;
   color: #464646;
 }
 .skills{
   height:680px;
   width:100%;
-  font-size: 60px;margin-top: 20px;
+  font-size: 60px;
   background-color:#f5f5f5;
 }
+
 .circlea {
-  margin-top: 25px;
-  height: 125px;
-  width:125px;
+  margin-top: 60px;
+  height: 100px;
+  width:  100px;
   margin-left: 90px;
 }
+@media (max-width: 500px){
+ 
+  .skillsa{
+    
+     padding-top: 350px;
+     font-size: 40px;
+     text-align: center;
+      background-color: #f5f5f5;
+     color: #464646;
+   }
+   .skills{
+     height:680px;
+     width:100%;
+     margin-top: 280px;
+     font-size: 60px;
+     background-color:#f5f5f5;
+   }
+   
+   .circlea {
+     margin-top: 30px;
+     height: 100px;
+     width:  100px;
+     margin-left: 50px;
+   }
+  
+  }
+
 .contact{
   height: 680px;
   width:100%;
   background-color:#f5f5f5;
 }
 .contacts{
-  padding-top: 110px;
+  padding-top: 100px;
   font-size: 60px;
   text-align: center;
   background-color: #f5f5f5;
@@ -366,15 +596,98 @@ margin: -80px 0px 10px 320px;
     top:0;
     left:0;        
 }
+
+@media (max-width: 500px){
+  .contact{
+   margin-top:380px;
+  }
+  .contacts{
+    padding-top: 30px;
+    font-size: 40px;
+    margin-left: 0px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #464646;
+  }
+  .imageaa{
+    margin-top: 20px;
+    margin-left: 80px;
+    border: 2px solid white;
+    height: 125px;
+    align-items: center;
+    border-radius: 100%;
+  }
+  .contactp{
+    margin-left: 300px;
+    font-size: 40px;
+    margin-top: -110px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  
+  }
+  .contactppe{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  
+  }
+  .contactppp{
+    margin-top: 0px;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  }
+  .meawwlinka:link, .meawwlinka:visited{
+    color: white;
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  .collegep{
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  }
+  .contactno{
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium';
+    color: #5f4d42;
+  }
+  .maillinks:link, .maillinks:visited{
+    color: #5f4d42;
+    display: block;
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  .fixed {
+      position:fixed;
+      width:100%;
+      top:0;
+      left:0;        
+  }
+
+}
+
+
+
+
 .portfolio{
 height: 680px;
 }
 .portname{
-  padding-top: 110px;
-  font-size: 60px;
+  padding-top: 100px;
+  font-size: 40px;
   text-align: center;
-   background-color: #f5f5f5;
-  margin-top: 140px;
+  background-color: #f5f5f5;
   color: #464646;
 }
 .fa-product-hunt{
@@ -395,7 +708,38 @@ height: 680px;
     margin-top: -20px;
     font-size: 50px;
   }
-
+  @media (max-width: 500px){
+    .portfolio{
+      margin-top: 300px;
+    }
+    .portname{
+      padding-top: 300px;
+      font-size: 50px;
+      text-align: center;
+      background-color: #f5f5f5;
+      color: #464646;
+    }
+    .fa-product-hunt{
+      margin-left: 30px;
+      margin-top: 40px;
+      font-size: 30px;
+      padding-bottom:30px; 
+    }
+    .porta{
+      font-size: 20px;
+      margin: -20px 100px  30px 37px;
+      
+    }
+    .leopetra:link, .leopetra:visited{
+        color: #464646;
+        background-color: transparent; 
+        text-decoration: none;
+        margin-top: -20px;
+        font-size: 25px;
+      }
+ 
+ 
+  }
 
 
 
