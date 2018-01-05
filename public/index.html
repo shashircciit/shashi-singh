@@ -11,14 +11,15 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > [1].offsetTop) {
-          $(".menu").addClass("fixed");
-      } else {
-          $(".menu").removeClass("fixed");
+      window.onscroll = function () {
+        if (window.scrollY > $('.menu')[0].offsetTop) {
+            $(".menu").addClass("fixed");
+        }
+        if (window.scrollY < $('.footer')[0].offsetHeight + $('.footer')[0].offsetTop) {
+            $(".menu").removeClass("fixed");
+        }
       }
-  });
-</script>
+    </script>
     
     <title>Shashi Singh</title>
   </head>
